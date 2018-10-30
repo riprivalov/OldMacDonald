@@ -2,9 +2,10 @@ class NamedCow extends Cow
 {
 	protected String myName;
 	public NamedCow(String nametype, String namesound, String namename){
-		myType = nametype;         
+		myType = nametype;  
+	 myName = namename;      
         mySound = namesound;
-        myName = namename;
+
 	} 
 	public NamedCow()     {         
          myType = "unknown";         
